@@ -1,0 +1,138 @@
+
+li{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: color #f4f4f4; 
+    line-height: 1.6;
+
+}
+header{
+position: sticky;
+top: 0;
+background-color: #333;
+color: white;
+text-align: center;
+padding: 20px 0;
+
+}
+nav>ul{
+    list-style-type: none;
+}
+nav>ul>li{
+    display: inline;
+    margin: 10px;
+}
+nav>ul>li>a{
+    color: white;
+ text-decoration: none;
+}
+section{
+    text-align: center;
+}
+#hero{
+    padding: 75px 15%;
+}
+#hero h2{
+    font-size: 48px;
+
+}
+#hero p{
+    margin-top: 20px;
+    font-size: 20px;
+
+
+}
+.btn{
+    margin-top: 25px;
+    display: inline-block;
+   background-color: #f05a28;
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+   padding: 10px;
+   font-size: 20px;
+   transition: all 0.5as;
+
+}
+.btn:hover{
+    background-color: #ca471b;
+}
+#featured{
+    text-align: center;
+
+}
+
+.destinationCard{
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    display: inline-block;
+    margin: 20px;
+}
+.destinationCard img{
+  max-width: 100%;
+  width: auto;
+    height: 300px;
+    border-radius: 5px;
+
+}
+
+.destinationCard h3{
+    font-size: 24px;
+    margin: 10px 0;
+
+}
+
+.newsletter{
+    background-color: #f05a28;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+.newsletter h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.newsletter p{
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+
+.newsletter form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 70%;
+    font-size: 16px;
+
+}
+
+.newsletter button{
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 0 5px px 0;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    height: 20px;
+}
+
